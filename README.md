@@ -1,6 +1,6 @@
 Visual Description System (Image & Video)
 
-A Python-based computer vision project that generates natural language descriptions for images and videos by combining object detection (YOLOv8) and image captioning (BLIP).
+* A Python-based computer vision project that generates natural language descriptions for images and videos by combining object detection (YOLOv8) and image captioning (BLIP).
 
 This project focuses on understanding visual content, not just detecting objects.
 
@@ -8,15 +8,15 @@ This project focuses on understanding visual content, not just detecting objects
 
 Features
 
-Image description using YOLOv8 + BLIP
+* Image description using YOLOv8 + BLIP
 
-Video description via frame sampling
+* Video description via frame sampling
 
-Action inference (e.g., person holding a gun)
+* Action inference (e.g., person holding a gun)
 
-Scene context detection (indoors / outdoors)
+* Scene context detection (indoors / outdoors)
 
-Modular, extensible pipeline design
+* Modular, extensible pipeline design
 
 
 
@@ -24,19 +24,19 @@ How It Works
 
 Images:-
 
-Detect objects using YOLOv8
+* Detect objects using YOLOv8
 
-Generate captions using BLIP
+* Generate captions using BLIP
 
-Combine objects + captions into a final description
+* Combine objects + captions into a final description
 
 Videos:-
 
-Sample frames at fixed intervals
+* Sample frames at fixed intervals
 
-Run detection + captioning per frame
+* Run detection + captioning per frame
 
-Aggregate results for a stable video-level description
+* Aggregate results for a stable video-level description
 
 
 
